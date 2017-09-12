@@ -2,6 +2,7 @@ package be.vdab.overerving;
 
 public abstract class Persoon {
     private String naam;
+
     private String voornaam;
     private Adres adres= new Adres();
 
@@ -17,7 +18,7 @@ public abstract class Persoon {
         this.adres = adres;
     }
 
-    public String getNaam() {
+    private String getNaam() {
         return naam;
     }
 
